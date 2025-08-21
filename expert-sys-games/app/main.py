@@ -12,7 +12,7 @@ class Preferencias(BaseModel):
 
 
 def carregar_dados():
-    with open('data.json', 'r') as f:
+    with open(r'D:\TCC\sistema especialista\sistema-especialista-games-api\expert-sys-games\app\games_data\data.json', 'r', encoding='utf-8') as f:
         dados = json.load(f)
     return dados
 
@@ -30,6 +30,7 @@ def recomendar_jogos(preferencias: Preferencias):
 dados = carregar_dados()
 jogos = dados['jogos']
 regras = dados['regras']
+print(dados)
 
 @app.post("/recomendar-jogos/")
 async def recomendar_jogos_api(preferencias: Preferencias):

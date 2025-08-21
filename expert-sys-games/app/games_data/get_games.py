@@ -2,9 +2,7 @@ from requests import post
 import json
 import os
 
-DATA_FILE = os.path.join(os.path.dirname(__file__), "games.json")
-
-API_KEY = ""
+api_key = os.getenv("API_KEY")
 
 def fetch_games():
     url = "https://api.igdb.com/v4/games"

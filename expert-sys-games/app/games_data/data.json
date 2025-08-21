@@ -1,0 +1,71 @@
+{
+  "regras": [
+    {"Condição": {"Gênero": "Aventura", "Faixa Etária": "Adulto"}, "Recomendação": ["The Legend of Zelda: Breath of the Wild", "Red Dead Redemption 2"]},
+    {"Condição": {"Gênero": "Aventura", "Faixa Etária": "Infantil"}, "Recomendação": ["Minecraft", "Super Mario Odyssey"]},
+    {"Condição": {"Gênero": "Ação", "Faixa Etária": "Adulto"}, "Recomendação": ["Call of Duty: Warzone"]},
+    {"Condição": {"Gênero": "Ação", "Faixa Etária": "Jovem"}, "Recomendação": ["Fortnite", "Overwatch"]},
+    {"Condição": {"Gênero": "RPG", "Faixa Etária": "Adulto"}, "Recomendação": ["The Witcher 3: Wild Hunt"]},
+    {"Condição": {"Gênero": "RPG", "Faixa Etária": "Infantil"}, "Recomendação": ["Pokémon Sword and Shield"]},
+    {"Condição": {"Gênero": "Esporte", "Faixa Etária": "Jovem"}, "Recomendação": ["FIFA 22"]},
+    {"Condição": {"Gênero": "Estratégia", "Faixa Etária": "Jovem"}, "Recomendação": ["Among Us"]},
+    {"Condição": {"Gênero": "Simulação", "Faixa Etária": "Infantil"}, "Recomendação": ["Animal Crossing: New Horizons"]},
+
+    {"Condição": {"Gênero": "Aventura", "Faixa Etária": "Adulto"}, "Recomendação": ["Assassin's Creed Valhalla", "Horizon Zero Dawn"]},
+    {"Condição": {"Gênero": "Aventura", "Faixa Etária": "Infantil"}, "Recomendação": ["LEGO Star Wars: The Skywalker Saga"]},
+
+    {"Condição": {"Gênero": "Ação", "Faixa Etária": "Adulto"}, "Recomendação": ["DOOM Eternal", "Grand Theft Auto V"]},
+    {"Condição": {"Gênero": "Ação", "Faixa Etária": "Jovem"}, "Recomendação": ["Apex Legends", "Splatoon 2"]},
+
+    {"Condição": {"Gênero": "RPG", "Faixa Etária": "Adulto"}, "Recomendação": ["Elden Ring", "Cyberpunk 2077"]},
+    {"Condição": {"Gênero": "RPG", "Faixa Etária": "Infantil"}, "Recomendação": ["Pokémon Let's Go, Pikachu!"]},
+
+    {"Condição": {"Gênero": "Esporte", "Faixa Etária": "Jovem"}, "Recomendação": ["NBA 2K21", "Rocket League"]},
+    {"Condição": {"Gênero": "Esporte", "Faixa Etária": "Infantil"}, "Recomendação": ["Mario Strikers: Battle League"]},
+
+    {"Condição": {"Gênero": "Estratégia", "Faixa Etária": "Jovem"}, "Recomendação": ["Clash Royale", "Plants vs. Zombies"]},
+    {"Condição": {"Gênero": "Estratégia", "Faixa Etária": "Adulto"}, "Recomendação": ["Civilization VI", "StarCraft II"]},
+
+    {"Condição": {"Gênero": "Simulação", "Faixa Etária": "Infantil"}, "Recomendação": ["Stardew Valley"]},
+    {"Condição": {"Gênero": "Simulação", "Faixa Etária": "Adulto"}, "Recomendação": ["The Sims 4", "Microsoft Flight Simulator"]}
+  ],
+  "jogos": [
+    {"Título": "The Legend of Zelda: Breath of the Wild", "Gênero": "Aventura", "Faixa Etária": "Adulto"},
+    {"Título": "Minecraft", "Gênero": "Aventura", "Faixa Etária": "Infantil"},
+    {"Título": "Call of Duty: Warzone", "Gênero": "Ação", "Faixa Etária": "Adulto"},
+    {"Título": "Fortnite", "Gênero": "Ação", "Faixa Etária": "Jovem"},
+    {"Título": "The Witcher 3: Wild Hunt", "Gênero": "RPG", "Faixa Etária": "Adulto"},
+    {"Título": "Super Mario Odyssey", "Gênero": "Aventura", "Faixa Etária": "Infantil"},
+    {"Título": "Overwatch", "Gênero": "Ação", "Faixa Etária": "Jovem"},
+    {"Título": "Pokémon Sword and Shield", "Gênero": "RPG", "Faixa Etária": "Infantil"},
+    {"Título": "Red Dead Redemption 2", "Gênero": "Aventura", "Faixa Etária": "Adulto"},
+    {"Título": "FIFA 22", "Gênero": "Esporte", "Faixa Etária": "Jovem"},
+    {"Título": "Among Us", "Gênero": "Estratégia", "Faixa Etária": "Jovem"},
+    {"Título": "Animal Crossing: New Horizons", "Gênero": "Simulação", "Faixa Etária": "Infantil"},
+
+    {"Título": "Assassin's Creed Valhalla", "Gênero": "Aventura", "Faixa Etária": "Adulto"},
+    {"Título": "Horizon Zero Dawn", "Gênero": "Aventura", "Faixa Etária": "Adulto"},
+    {"Título": "LEGO Star Wars: The Skywalker Saga", "Gênero": "Aventura", "Faixa Etária": "Infantil"},
+
+    {"Título": "DOOM Eternal", "Gênero": "Ação", "Faixa Etária": "Adulto"},
+    {"Título": "Grand Theft Auto V", "Gênero": "Ação", "Faixa Etária": "Adulto"},
+    {"Título": "Apex Legends", "Gênero": "Ação", "Faixa Etária": "Jovem"},
+    {"Título": "Splatoon 2", "Gênero": "Ação", "Faixa Etária": "Jovem"},
+
+    {"Título": "Elden Ring", "Gênero": "RPG", "Faixa Etária": "Adulto"},
+    {"Título": "Cyberpunk 2077", "Gênero": "RPG", "Faixa Etária": "Adulto"},
+    {"Título": "Pokémon Let's Go, Pikachu!", "Gênero": "RPG", "Faixa Etária": "Infantil"},
+
+    {"Título": "NBA 2K21", "Gênero": "Esporte", "Faixa Etária": "Jovem"},
+    {"Título": "Rocket League", "Gênero": "Esporte", "Faixa Etária": "Jovem"},
+    {"Título": "Mario Strikers: Battle League", "Gênero": "Esporte", "Faixa Etária": "Infantil"},
+
+    {"Título": "Clash Royale", "Gênero": "Estratégia", "Faixa Etária": "Jovem"},
+    {"Título": "Plants vs. Zombies", "Gênero": "Estratégia", "Faixa Etária": "Jovem"},
+    {"Título": "Civilization VI", "Gênero": "Estratégia", "Faixa Etária": "Adulto"},
+    {"Título": "StarCraft II", "Gênero": "Estratégia", "Faixa Etária": "Adulto"},
+
+    {"Título": "Stardew Valley", "Gênero": "Simulação", "Faixa Etária": "Infantil"},
+    {"Título": "The Sims 4", "Gênero": "Simulação", "Faixa Etária": "Adulto"},
+    {"Título": "Microsoft Flight Simulator", "Gênero": "Simulação", "Faixa Etária": "Adulto"}
+  ]
+}
